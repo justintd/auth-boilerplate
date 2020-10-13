@@ -10,7 +10,11 @@ module.exports = {
     fontFamily: {
       body: ['Roboto', 'sans-serif'],
     },
-    extend: {},
+    extend: {
+      spacing: {
+        128: '32rem',
+      },
+    },
   },
   variants: {},
   plugins: [],
