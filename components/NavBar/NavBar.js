@@ -1,7 +1,14 @@
 function NavBar() {
   return (
-    <div className="flex justify-between items-center">
-      <p className="font-sans text-lg">test test test</p>
+    <div className="flex items-center justify-end py-5 font-body font-bold text-white bg-blue-800 w-full absolute">
+      <ul className="mx-32">
+        <li className="inline-block mr-10">
+          <a href="#/">Login</a>
+        </li>
+        <li href="#/" className="inline-block">
+          <a href="#/">Register</a>
+        </li>
+      </ul>
     </div>
   );
 }
