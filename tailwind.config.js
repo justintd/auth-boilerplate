@@ -7,6 +7,9 @@ module.exports = {
   },
   purge: [],
   theme: {
+    fontFamily: {
+      body: ['Roboto', 'sans-serif'],
+    },
     extend: {},
   },
   variants: {},
