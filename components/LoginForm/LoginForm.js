@@ -15,7 +15,7 @@ function LoginForm() {
         .catch(function (error) {
           let errorCode = error.code;
           let errorMessage = error.message;
-          alert(`${errorCode} ${errorMessage}`);
+          alert(`${errorMessage}`);
         });
     },
   });
