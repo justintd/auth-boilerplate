@@ -13,7 +13,11 @@ var firebaseConfig = {
   measurementId: 'G-FX4Q80B20B',
 };
 
-firebase.initializeApp(firebaseConfig);
-firebase.firestore();
+if (!firebase.apps.length) {
+  firebase.initializeApp(firebaseConfig);
+}
 
 export default firebase;
+
+export const db = firebase.firestore();
+export const provider = new firebase.auth.GoogleAuthProvider();
