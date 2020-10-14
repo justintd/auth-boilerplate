@@ -3,7 +3,7 @@ import 'firebase/firestore';
 import 'firebase/auth';
 
 var firebaseConfig = {
-  apiKey: process.env.REACT_APP_FIREBASE_APIKEY,
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
   authDomain: 'auth-boilerplate-55fa5.firebaseapp.com',
   databaseURL: 'https://auth-boilerplate-55fa5.firebaseio.com',
   projectId: 'auth-boilerplate-55fa5',
